@@ -1,46 +1,61 @@
 .body-content {
+    font-family: oldEnglish;
     margin-top: 72px;
+}
+@font-face {
+    font-family: oldEnglish;
+    src: url('../fonts/AniTypewriter.ttf');
 }
 
 td, th {
+    font-family: oldEnglish;
     padding: 10px;
 }
 
 th {
+    font-family: oldEnglish;
     text-align: center;
 }
 
 td {
+    font-family: oldEnglish;
     vertical-align: top;
 }
 
 tr:nth-child(odd) {
-    background-color: #e4e4e4;
+    font-family: oldEnglish;
+    background-color: #669999;
 }
 
 .centeredTable {
+    font-family: oldEnglish;
     margin-left: auto;
     margin-right: auto;
 }
 
 table.job-listing {
+    font-family: oldEnglish;
     margin: 30px auto;
-    border: 1px solid #e4e4e4;
+    border: 1px solid #669999;
     width: 80%;
 }
 
 table.job-listing td:first-child {
+    font-family: oldEnglish;
     font-weight: bold;
 }
 
 table.job-listing td:last-child {
+    //font-family: oldEnglish;
     width: 80%;
 }
 
 label {
+    font-family: oldEnglish;
     margin-right: 15px;
 }
 
 .centered {
+    font-family: oldEnglish;
     text-align: center;
 }

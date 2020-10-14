@@ -5,7 +5,11 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  @font-face {
+      font-family: oldEnglish;
+      src: url('../fonts/AniTypewriter.ttf');
+      }
+  font-family: oldEnglish;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }

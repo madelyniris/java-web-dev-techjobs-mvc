@@ -13,7 +13,7 @@
     <!-- TODO #1 - Use a loop to display job results in a table. -->
 
 </div>
-    <table th:style="job-listing">
+   <table th:fragment="listJobs" class="job-listng">
         <tr  th:each="job: ${jobs}">
             <td>
                 <p th:text="${'ID: ' + job.id}"> </p>
